@@ -29,3 +29,9 @@ body {
 #logo-span {
     color: rgb(133,58,90);
 }
+
+/* ------------------------------------------------- Hero Section */
+header.masthead {
+    background-image: url(../img/hero-food.jpeg);
+    color: transparent;
+}
