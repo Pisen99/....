@@ -23,9 +23,9 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(17, 35, 45);
+    color: rgb(133,58,90);
 }
 
 #logo-span {
-    color: rgba(17, 35, 45);
+    color: rgb(133,58,90);
 }
