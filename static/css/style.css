@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Saira+Semi+Condensed:wght@300&display=swap');
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Saira Semi Condensed', sans-serif;
+*/
+/* ------------------------------------------------- Body */
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: black; /* Temp so I can see navbar on webpage */
+}
