@@ -6,7 +6,6 @@ font-family: 'Saira Semi Condensed', sans-serif;
 /* ------------------------------------------------- Body */
 body {
     font-family: 'Saira Semi Condensed', sans-serif;
-    background-color: black; /* Temp so I can see navbar on webpage */
 }
 
 /* ------------------------------------------------- Logo & menu */
@@ -62,4 +61,28 @@ header.masthead {
     color: rgb(133,58,90);
     background-color: rgba(17, 35, 45);
     border-color: rgb(133,58,90);
+}
+
+/* ------------------------------------------------- About Section */
+.fa-inverse {
+    color: rgb(133,58,90);
+}
+
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+mark {
+    background-color: rgba(133, 58, 91, 0.486);
+    color: rgb(17,35,45);
+}
+
+.about {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    border-bottom: 2px solid rgb(133,58,90);
+}
+
+.text-muted {
+    color: rgb(17,35,45);
 }
