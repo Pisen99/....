@@ -8,3 +8,24 @@ body {
     font-family: 'Saira Semi Condensed', sans-serif;
     background-color: black; /* Temp so I can see navbar on webpage */
 }
+
+/* ------------------------------------------------- Logo & menu */
+#mainNav .navbar-brand {
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    letter-spacing: .5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(17, 35, 45);
+}
+
+#logo-span {
+    color: rgba(17, 35, 45);
+}
