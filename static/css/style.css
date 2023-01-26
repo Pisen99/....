@@ -25,9 +25,10 @@ body {
     color: rgb(133,58,90);
 }
 
-#logo-span {
+#logo-hover:hover {
     color: rgb(133,58,90);
 }
+
 /* Setting background-img for navbar */
 @media (min-width: 992px) {
     #mainNav.navbar-shrink {
