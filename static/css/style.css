@@ -100,6 +100,18 @@ h4 {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+/* ------------------------------------------------- Carousel controls */
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-image: none;
+    font-size: 2rem;
+    color: rgb(133,58,90);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(133,58,90);
+}
+
 /* ------------------------------------------------- Explore Section */
 .img-fluid {
     height: 60vh;
