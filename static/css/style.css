@@ -33,6 +33,7 @@ body {
     #mainNav.navbar-shrink {
       background-image: url(../img/contact-b.png);
       background-size: cover;
+      border-bottom: 2px solid rgb(133,58,90);
   }
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,17 +14,17 @@
 
     <!------------------- CSS (includes Bootstrap) -------------------->
     <link href="agency/css/styles.css" rel="stylesheet">
-
-    <!---------------------------- My CSS ----------------------------->
     <link rel="stylesheet" href="static/css/style.css">
     <title>BorgaGården</title>
 </head>
+
 <body>
     <!-------------------------- Navigation -------------------------->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <h1><a class="navbar-brand" href="#page-top"><span id="logo-span">Borga</span>gården</a></h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ms-1"></i>
             </button>
@@ -50,42 +51,114 @@
     <!-------------------------- About Section -------------------------->
     <section class="page-section" id="services">
         <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase about">BorgaGarden</h2>
-                <h3 class="section-subheading text-muted">
-                    Borgagården has been an inn since 1948 when Linnea Näslund built the first part of the main building,
-                    which today is used for our fine dining restaurant & saloon pub
-                </h3>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa-solid fa-utensils fa-stack-1x fa-inverse fa-stack-2x"></i>
-                    </span>
-                    <h4 class="my-3 text-uppercase">Fine-Dining</h4>
-                    <p class="text-muted">
-                        The restaurant, with a captivating panorama out over Borgahällan,
-                        Borgasjön and the mountains. Here you eat well made food,
-                        made from locally hand picked ingredients.
-                        <br>
-                        <mark><em>Must be booked 8PM the day before</em></mark>
-                    </p>
+            <!-- Carousel slider -->
+            <div class="row justify-content-center">
+                <!-- Carousel nr.1 -->
+                <div class="col-sm-12 col-md-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="static/img/" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/img/" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/img/" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa-solid fa-hat-cowboy fa-inverse fa-stack-2x"></i>
-                    </span>
-                    <h4 class="my-3 text-uppercase">Saloon Pub</h4>
-                    <p class="text-muted">
-                        The saloon, with a wild west theme,
-                        Borgafjäll's mountain chain right outside the sheriffs door.
-                        Here you have a good variaty of both big and local beers,
-                        lay back and relax in front of our open fireplace.
-                        <br>
-                        <mark><em>Drop-in from 5PM everyday</em></mark>
-                    </p>
+                <!-- Carousel nr.2 -->
+                <div class="col-sm-12 col-md-6">
+                    <div id="carouselExampleIndicators-2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="static/img/" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/img/" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="static/img/" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase about">BorgaGarden</h2>
+            <h3 class="section-subheading text-muted">
+                Borgagården has been an inn since 1948 when Linnea Näslund built the first part of the main building,
+                which today is used for our fine dining restaurant & saloon pub
+            </h3>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <i class="fa-solid fa-utensils fa-stack-1x fa-inverse fa-stack-2x"></i>
+                </span>
+                <h4 class="my-3 text-uppercase">Fine-Dining</h4>
+                <p class="text-muted">
+                    The restaurant, with a captivating panorama out over Borgahällan,
+                    Borgasjön and the mountains. Here you eat well made food,
+                    made from locally hand picked ingredients.
+                    <br>
+                    <mark><em>Must be booked 8PM the day before</em></mark>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <i class="fa-solid fa-hat-cowboy fa-inverse fa-stack-2x"></i>
+                </span>
+                <h4 class="my-3 text-uppercase">Saloon Pub</h4>
+                <p class="text-muted">
+                    The saloon, with a wild west theme,
+                    Borgafjäll's mountain chain right outside the sheriffs door.
+                    Here you have a good variaty of both big and local beers,
+                    lay back and relax in front of our open fireplace.
+                    <br>
+                    <mark><em>Drop-in from 5PM everyday</em></mark>
+                </p>
+            </div>
+        </div>
         </div>
     </section>
     <!-------------------------- Explore Section -------------------------->
@@ -107,7 +180,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Ski Touring</div>
-                            <div class="portfolio-caption-subheading text-muted">Come along on a guided tour among Borgafjälls most breath taking mountains.</div>
+                            <div class="portfolio-caption-subheading text-muted">Come along on a guided tour among
+                                Borgafjälls most breath taking mountains.</div>
                         </div>
                     </div>
                 </div>
@@ -122,7 +196,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Hiking</div>
-                            <div class="portfolio-caption-subheading text-muted">Pack your backpack and come out and discover Borgafjälls mountains valleys.</div>
+                            <div class="portfolio-caption-subheading text-muted">Pack your backpack and come out and
+                                discover Borgafjälls mountains valleys.</div>
                         </div>
                     </div>
                 </div>
@@ -137,7 +212,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Cross-skiing</div>
-                            <div class="portfolio-caption-subheading text-muted">With a 8KM ski track with Borgahällan on your side.</div>
+                            <div class="portfolio-caption-subheading text-muted">With a 8KM ski track with Borgahällan
+                                on your side.</div>
                         </div>
                     </div>
                 </div>
@@ -152,7 +228,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Snorkeling</div>
-                            <div class="portfolio-caption-subheading text-muted">Guided tour up to Sutme waterfalls.</div>
+                            <div class="portfolio-caption-subheading text-muted">Guided tour up to Sutme waterfalls.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -167,7 +244,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lapp Cot</div>
-                            <div class="portfolio-caption-subheading text-muted">Camp right under the northen lights.</div>
+                            <div class="portfolio-caption-subheading text-muted">Camp right under the northen lights.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -182,7 +260,8 @@
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Sauna</div>
-                            <div class="portfolio-caption-subheading text-muted">After a long day out why not take a look at our sauna down by the lake.</div>
+                            <div class="portfolio-caption-subheading text-muted">After a long day out why not take a
+                                look at our sauna down by the lake.</div>
                         </div>
                     </div>
                 </div>
@@ -201,26 +280,32 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <div class="form-group">
                             <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                data-sb-validations="required,email" />
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                         </div>
                         <div class="form-group mb-md-0">
                             <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                                data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,13 +315,17 @@
                         <div class="fw-bolder">We have recieved your submission,</div>
                         we'll get back to you as soon as possible
                         <br />
-                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        <a
+                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                     </div>
                 </div>
                 <!-- Submit error message-->
-                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
                 <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
+                        id="submitButton" type="submit">Send Message</button></div>
             </form>
         </div>
     </section>
@@ -251,4 +340,5 @@
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
+
 </html>
