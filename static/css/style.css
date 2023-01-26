@@ -90,3 +90,9 @@ mark {
 h4 {
     font-family: 'Saira Semi Condensed', sans-serif;
 }
+
+/* ------------------------------------------------- Explore Section */
+.img-fluid {
+    height: 60vh;
+    width: 100%;
+}
