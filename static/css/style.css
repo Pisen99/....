@@ -102,3 +102,9 @@ section#contact {
     background-image: url(../img/contact-b.png);
     background-size: cover;
 }
+
+.navbar {
+    background-image: url(../img/contact-b.png);
+    background-size: cover;
+    /* Come back and fix collapse */
+}
