@@ -28,6 +28,13 @@ body {
 #logo-span {
     color: rgb(133,58,90);
 }
+/* Setting background-img for navbar */
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink {
+      background-image: url(../img/contact-b.png);
+      background-size: cover;
+  }
+}
 
 /* ------------------------------------------------- Hero Section */
 header.masthead {
@@ -101,10 +108,4 @@ h4 {
 section#contact {
     background-image: url(../img/contact-b.png);
     background-size: cover;
-}
-
-.navbar {
-    background-image: url(../img/contact-b.png);
-    background-size: cover;
-    /* Come back and fix collapse */
 }
