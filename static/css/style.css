@@ -96,3 +96,9 @@ h4 {
     height: 60vh;
     width: 100%;
 }
+
+/* ------------------------------------------------- Contact Section */
+section#contact {
+    background-image: url(../img/contact-b.png);
+    background-size: cover;
+}
