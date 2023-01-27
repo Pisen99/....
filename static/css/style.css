@@ -118,6 +118,20 @@ h4 {
     width: 100%;
 }
 
+.page-section h2.section-heading {
+    border-bottom: 2px solid rgb(133,58,90);
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background-color: rgb(133,58,90);
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    color: rgb(133,58,90);
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
 /* ------------------------------------------------- Contact Section */
 section#contact {
     background-image: url(../img/contact-b.png);
