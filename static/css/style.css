@@ -137,3 +137,13 @@ section#contact {
     background-image: url(../img/contact-b.png);
     background-size: cover;
 }
+
+.btn-primary.disabled {
+    background-color: rgba(17, 35, 45, 0.488);
+    color: rgb(133,58,90);
+    border-color: rgb(133,58,90);
+}
+
+.btn-primary.disabled:hover {
+    background-color: rgb(17, 35, 45);
+}
