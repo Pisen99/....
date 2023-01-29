@@ -35,6 +35,7 @@
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Explore</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reservation</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                 </ul>
             </div>
@@ -49,6 +50,41 @@
             <a class="btn btn-primary btn-xl text-uppercase ms-5" href="#">Book a Table</a>
         </div>
     </header>
+    <!-------------------------- Sign in Section -------------------------->
+    <section class="page-section">
+            <div class="row justify-content-center no-gutters">
+                <div class="col-sm-12 col-md-6">
+                    <div class="text-center mb-5">
+                        <h2 class="section-heading text-uppercase">Sign In</h2>
+                        <h3 class="section-subheading text-muted">
+                            If you haven't created an account yet, please <a href="#">sign up</a> first.
+                        </h3>
+                    </div>
+                    <form>
+                        <div class="text-center mb-5">
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *"/>
+                            </div>
+                            <div class="form-group">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="password" type="password" placeholder="Your Password *"/>
+                            </div>
+                            <div class="form-group">
+                                <!-- Remember me input-->
+                                <input type="checkbox" id="remember_me" name="remember_me" value="remember_me">
+                                <label for="remember_me">Remember Me</label>
+                            </div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="text-center">
+                            <button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton"
+                                type="submit">Log in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
     <!-------------------------- About Section -------------------------->
     <section class="page-section" id="services">
         <div class="container">
@@ -326,6 +362,7 @@
             </form>
         </div>
     </section>
+    <!-------------------------- Footer Section -------------------------->
     <footer class="page-section" id="services">
         <div class="container">
             <div class="row text-center">
